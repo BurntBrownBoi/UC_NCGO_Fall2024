@@ -46,9 +46,9 @@ public class ServerPlayerMovement : NetworkBehaviour
         // Read our player input from our new input system
         Vector2 moveInput = _playerInput.Player.Movement.ReadValue<Vector2>();
 
-        bool isJumping = _playerInput.Player.Jumping.triggered;
-        bool isPunching = _playerInput.Player.Punching.triggered;
-        bool isSprinting = _playerInput.Player.Sprinting.triggered;
+        bool isJumping = _playerInput.Player.Jumping.IsPressed();
+        bool isPunching = _playerInput.Player.Punching.IsPressed();
+        bool isSprinting = _playerInput.Player.Sprinting.IsPressed();
 
 
         // Determine if we are a server or a player
