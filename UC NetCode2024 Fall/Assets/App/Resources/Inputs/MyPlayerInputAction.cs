@@ -123,7 +123,7 @@ public partial class @MyPlayerInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""e5e9c61e-6f8e-4be3-be4a-96aa79854b57"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/shift"",
                     ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
@@ -134,7 +134,7 @@ public partial class @MyPlayerInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7854923d-55cb-4bc1-a88b-0c5611dd9a73"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
@@ -145,7 +145,7 @@ public partial class @MyPlayerInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""9f8ce2e2-eead-4186-9eac-5da1d183fd19"",
-                    ""path"": ""<Keyboard>/shift"",
+                    ""path"": ""<Keyboard>/z"",
                     ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
